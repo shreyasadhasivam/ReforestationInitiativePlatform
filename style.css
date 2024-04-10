@@ -1,0 +1,125 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Header styles */
+header {
+    
+    background-color: #82b74b;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+#quote{
+    color:rgb(58, 26, 26);
+    background-color: #82b74b;
+    text-align: center;
+    padding: 5px 0;
+}
+
+/* Navigation styles */
+nav {
+    background-color: #362121;
+    
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fffdfd;
+}
+
+/* Section styles */
+section {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+
+section h2 {
+    margin-bottom: 10px;
+    color: #82b74b;
+}
+
+/* Form styles */
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #82b74b;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #6e9e40;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Project styles */
+.project {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+}
+
+.project h3 {
+    color: #82b74b;
+}
+
+/* Donation form styles */
+#donate {
+    background-color: #f2f2f2;
+}
+
+#donate p {
+    margin-bottom: 20px;
+}

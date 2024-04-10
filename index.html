@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reforestation Initiative</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Reforestation Initiative Platform</h1>
+    </header>
+    <div id="quote">
+    <blockquote><i>"Reversing Deforestation is complicated; Planting Tress is Simple."</i></blockquote>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#team">Our Team</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#get-involved">Get Involved</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>The Reforestation Initiative is dedicated to restoring and preserving forests around the world. We believe in the importance of reforestation efforts to combat climate change and preserve biodiversity.</p>
+        <p>Our team consists of passionate individuals committed to making a positive impact on the environment.</p>
+    </section>
+    <section id="team">
+        <h2>Our Team</h2>
+        <p>
+            <li>Priyanshu Chandak(210934026)</li>
+            <li>Polu Chakradhar(210903050)</li>
+        </p>
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Amazon Rainforest Restoration</h3>
+            <p>We are working to restore deforested areas in the Amazon rainforest by planting native tree species and implementing sustainable land management practices.</p>
+        </div>
+        <div class="project">
+            <h3>Vajra Vana Regeneration</h3>
+            <p>In partnership with MAHE University, we are reforesting degraded landscapes in the MIT Campus to restore the native trees and improve ecosystem resilience. The area is around 1.5 acre and the forest will have around 1000 trees including local species from the Western Ghats.</p>
+            <img src="vajra.jpg">
+        </div>
+    </section>
+
+    <section id="get-involved">
+        <h2>Get Involved</h2>
+        <p>Join us in our mission to reforest the planet! Here are some ways you can get involved:</p>
+        <ul>
+            <li>Volunteer for tree planting events</li>
+            <li>Donate to support our projects</li>
+            <li>Spread the word on social media</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="contact.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <section id="donate">
+        <h2>Donate</h2>
+        <p>Your donations help us plant more trees and restore ecosystems. Together, we can make a difference!</p>
+        <form action="donate.php" method="POST">
+            <label for="amount">Amount:</label>
+            <input type="number" id="amount" name="amount" min="1" required>
+            <label for="currency">Currency:</label>
+            <select id="currency" name="currency" required>
+                <option value="INR">INR</option>
+                <option value="USD">USD</option>
+                <option value="EUR">EUR</option>
+            </select>
+            <br><br>
+            <button type="submit">Donate Now</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Reforestation Initiative</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
