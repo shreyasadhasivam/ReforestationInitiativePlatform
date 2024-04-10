@@ -7,18 +7,18 @@
 <li>Go to https://localhost/yourdirectoryname</li>
 <li>To activate mail server 
 <li>Go to C:/XAMPP/php/php.ini and search using for 'mail function' Ctrl+F and add the following lines:<br>
-[mail function]
-SMTP = smtp.gmail.com
-smtp_port = 465
-sendmail_from = youremail@example.com
+[mail function]<br>
+SMTP = smtp.gmail.com<br>
+smtp_port = 465<br>
+sendmail_from = youremail@example.com<br>
 sendmail_path = "\"C:\xampp\sendmail\sendmail.exe\" -t"</li>
 <li>Go to C:/XAMPP/sendmail/sendmail.ini and replace the entire script with this:<br>
-  [sendmail]
-smtp_server = smtp.gmail.com
-smtp.port = 465
-error_logfile = error.log
-debug_logfile = debug.log
-auth_username = youremail@example.com  
-auth_password = encryptedpassword
-force_sender = youremail@example.com 
+  [sendmail]<br>
+smtp_server = smtp.gmail.com<br>
+smtp.port = 465<br>
+error_logfile = error.log<br>
+debug_logfile = debug.log<br>
+auth_username = youremail@example.com<br>  
+auth_password = encryptedpassword<br>
+force_sender = youremail@example.com<br>
 </li>
